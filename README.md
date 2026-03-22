@@ -1,22 +1,35 @@
-# README
+# EDA & Analytics Repo
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisi vel consectetur interdum, nisl nisi aliquam mauris, sit amet lacinia massa nisi a purus. Sed ac diam vel nisi malesuada facilisis vel non leo. Integer ac est in dui dapibus fermentum eu sit amet massa. Sed pharetra nunc ac urna maximus, a pulvinar turpis facilisis. Duis auctor nisi eu risus suscipit, eget pellentesque massa condimentum.
+A collection of exploratory data analyses, visualizations, and predictive analytics using SQL and Python.
 
-## Features
-- Lorem ipsum dolor sit amet
-- Consectetur adipiscing elit
-- Interdum et malesuada fames ac ante ipsum primis in faucibus
+## Structure
 
-## Installation
-1. Clone the repository
-2. Install dependencies
-3. Run the application
-
-## Usage
-```bash
-# Example command
-npm start
+```
+├── eda/                # Exploratory data analysis notebooks and scripts
+├── sql/                # SQL queries and analyses
+├── visualizations/     # Visualization scripts and notebooks
+├── predictive/         # Predictive analytics and ML models
+└── utils/              # Shared utilities and helper functions
 ```
 
+## Setup
+
+```bash
+# Create a virtual environment
+python -m venv .venv
+source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+```
+
+## Conventions
+
+- **EDA**: Jupyter notebooks prefixed with a number indicate sequence (e.g., `01_initial_exploration.ipynb`)
+- **SQL**: Queries organized by subject area in subdirectories under `sql/`
+- **Visualizations**: Standalone scripts or notebooks producing charts/dashboards
+- **Predictive**: Model training, evaluation, and inference scripts
+
 ## License
-This project is licensed under the MIT License.
+
+MIT
